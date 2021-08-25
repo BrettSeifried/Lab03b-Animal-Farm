@@ -22,6 +22,14 @@ horseImage.addEventListener('click', () => {
   horseAudio.play();
 });
 
+window.addEventListener('keydown', (event) => {
+  if (event.key === "d") {
+    dogAudio.play()};
+  if (event.key === "c") {
+      catAudio.play();}
+  if (event.key === "h") {
+      horseAudio.play();}
+});
 
 // set event listeners 
   // get user input(s)
