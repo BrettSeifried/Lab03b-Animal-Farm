@@ -8,27 +8,25 @@ const dogAudio = document.getElementById('dog-audio');
 const horseImage = document.getElementById('horse-image');
 const horseAudio = document.getElementById('horse-audio');
 
-console.log(catImage, catAudio);
-
 catImage.addEventListener('click', () => {
-  catAudio.play();
+    catAudio.play();
 });
 
 dogImage.addEventListener('click', () => {
-  dogAudio.play();
+    dogAudio.play();
 });
 
 horseImage.addEventListener('click', () => {
-  horseAudio.play();
+    horseAudio.play();
 });
 
 window.addEventListener('keydown', (event) => {
-  if (event.key === "d") {
-    dogAudio.play()};
-  if (event.key === "c") {
-      catAudio.play();}
-  if (event.key === "h") {
-      horseAudio.play();}
+    if (event.key === 'd') {
+        dogAudio.play();}
+    if (event.key === 'c') {
+        catAudio.play();}
+    if (event.key === 'h') {
+        horseAudio.play();}
 });
 
 // set event listeners 
